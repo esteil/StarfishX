@@ -454,14 +454,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DCA27FB5147C0A980071CFD0 /* XStarFish (Upgraded) */;
+			remoteGlobalIDString = DCA27FB5147C0A980071CFD0;
 			remoteInfo = "XStarFish (Upgraded)";
 		};
 		DCA28045147C0A980071CFD0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DCA27FFD147C0A980071CFD0 /* XStarfish-G3 (Upgraded) */;
+			remoteGlobalIDString = DCA27FFD147C0A980071CFD0;
 			remoteInfo = "XStarfish-G3 (Upgraded)";
 		};
 /* End PBXContainerItemProxy section */
@@ -990,7 +990,11 @@
 			isa = PBXProject;
 			buildConfigurationList = DC4CA6BC147C0A4500879021 /* Build configuration list for PBXProject "XStarFish2" */;
 			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* XStarFish */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1817,12 +1821,13 @@
 				GCC_PREFIX_HEADER = starfishprefix.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "BUILD_20=1";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "Info-XStarfish_G3__Upgraded_.plist";
 				INSTALL_PATH = "../../starfishx-g3";
 				MAC_OS_VERSION_MIN_SUPPORTED = 1026;
 				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "StarfishX-G3";
-				SDKROOT = /Developer/SDKs/MacOSX10.2.6.sdk;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
@@ -1843,12 +1848,13 @@
 				GCC_PREFIX_HEADER = starfishprefix.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "BUILD_20=1";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "Info-XStarfish_G3__Upgraded_.plist";
 				INSTALL_PATH = "../../starfishx-g3";
 				MAC_OS_VERSION_MIN_SUPPORTED = 1026;
 				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "StarfishX-G3";
-				SDKROOT = /Developer/SDKs/MacOSX10.2.6.sdk;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
@@ -1868,13 +1874,14 @@
 				GCC_PREFIX_HEADER = starfishprefix.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "BUILD_20=1";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "Info-XStarfish_G3__Upgraded_.plist";
 				INSTALL_PATH = "../../starfishx-g3";
 				MAC_OS_VERSION_MIN_SUPPORTED = 1026;
 				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "StarfishX-G3";
 				PROFILING_CODE = YES;
-				SDKROOT = /Developer/SDKs/MacOSX10.2.6.sdk;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
@@ -1891,12 +1898,13 @@
 				GCC_PREFIX_HEADER = starfishprefix.h;
 				GCC_PREPROCESSOR_DEFINITIONS = "BUILD_20=1";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "Info-XStarfish_G3__Upgraded_.plist";
 				INSTALL_PATH = "../../starfishx-g3";
 				MAC_OS_VERSION_MIN_SUPPORTED = 1026;
 				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "StarfishX-G3";
-				SDKROOT = /Developer/SDKs/MacOSX10.2.6.sdk;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
