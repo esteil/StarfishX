@@ -235,7 +235,8 @@ int			gNextLine;
 		[gLineLock lock];	// Blocks until we get the lock
 		_curLine = gNextLine++;
 		[gLineLock unlock];
-		buff = [_bitmap bitmapData] + (_curLine * _maxCol * sizeof(long));
+		//buff = [_bitmap bitmapData] + (_curLine * _maxCol * sizeof(long));
+        buff = [_bitmap bitmapData] + (_curLine * [_bitmap bytesPerRow]);
 	} // while
 
 	_generating = NO;
