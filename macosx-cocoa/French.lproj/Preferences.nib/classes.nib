@@ -1,0 +1,76 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = PaletteMatrix; LANGUAGE = ObjC; SUPERCLASS = NSMatrix; }, 
+        {
+            ACTIONS = {
+                changedFileFormat = id; 
+                changedPrioritySwitch = id; 
+                changedQuitWhenDone = id; 
+                changedUseTimer = id; 
+                doCheckVersion = id; 
+                done = id; 
+            }; 
+            CLASS = PreferencesController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                autoStartSwitch = NSButton; 
+                checkVersionNowButton = NSButton; 
+                checkVersionProgress = NSProgressIndicator; 
+                checkVersionSwitch = NSButton; 
+                doneButton = NSButton; 
+                everyStaticText = NSTextField; 
+                fileFormatPopup = NSPopUpButton; 
+                jpegQualitySlider = NSSlider; 
+                lowPrioritySwitch = NSButton; 
+                minimizeWhileWaitingSwitch = NSButton; 
+                newOnWakeFromSleepSwitch = NSButton; 
+                qualityStaticText = NSTextField; 
+                quitWhenDoneSwitch = NSButton; 
+                sliderScaleStaticText = NSTextField; 
+                timerAmountField = NSTextField; 
+                timerUnitPopup = NSPopUpButton; 
+                useAltivecSwitch = NSButton; 
+                useMPSwitch = NSButton; 
+                useTimerSwitch = NSButton; 
+                versionCheckStatusText = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {
+                changedPalettesPopup = id; 
+                changedQuitWhenDone = id; 
+                changedTimerAmount = id; 
+                changedUseTimer = id; 
+                newPattern = id; 
+            }; 
+            CLASS = StarfishController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                autoStartSwitch = NSButton; 
+                everyStaticText = NSTextField; 
+                fileFormatPopup = NSPopUpButton; 
+                imageWell = NSImageView; 
+                minimizeWhileWaitingSwitch = NSButton; 
+                newPatternButton = NSButton; 
+                nextStartTimeField = NSTextField; 
+                patternSizePopup = NSPopUpButton; 
+                placementPopup = NSPopUpButton; 
+                progressIndicator = NSProgressIndicator; 
+                quitWhenDoneSwitch = NSButton; 
+                startMinimizedSwitch = NSButton; 
+                timerAmountField = NSTextField; 
+                timerUnitPopup = NSPopUpButton; 
+                useAltivecSwitch = NSButton; 
+                useMPSwitch = NSButton; 
+                useTimerSwitch = NSButton; 
+                whichPalettePopup = NSPopUpButton; 
+                whichScreensPopup = NSPopUpButton; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = "java.lang.Object"; LANGUAGE = Java; }
+    ); 
+    IBVersion = 1; 
+}

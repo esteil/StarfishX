@@ -1,0 +1,64 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                addColor = id; 
+                addPalette = id; 
+                done = id; 
+                removeColor = id; 
+                removePalette = id; 
+            }; 
+            CLASS = EditPalettesController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                addColorButton = NSButton; 
+                addPaletteButton = NSButton; 
+                colorsText = NSTextField; 
+                componentsTable = MyTableView; 
+                doneButton = NSButton; 
+                palettesTable = NSTableView; 
+                removeColorButton = NSButton; 
+                removePaletteButton = NSButton; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = MyTableView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }, 
+        {CLASS = PaletteMatrix; LANGUAGE = ObjC; SUPERCLASS = NSMatrix; }, 
+        {
+            ACTIONS = {
+                changedPalettesPopup = id; 
+                changedQuitWhenDone = id; 
+                changedTimerAmount = id; 
+                changedUseTimer = id; 
+                newPattern = id; 
+            }; 
+            CLASS = StarfishController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                autoStartSwitch = NSButton; 
+                everyStaticText = NSTextField; 
+                fileFormatPopup = NSPopUpButton; 
+                imageWell = NSImageView; 
+                minimizeWhileWaitingSwitch = NSButton; 
+                newPatternButton = NSButton; 
+                nextStartTimeField = NSTextField; 
+                patternSizePopup = NSPopUpButton; 
+                placementPopup = NSPopUpButton; 
+                progressIndicator = NSProgressIndicator; 
+                quitWhenDoneSwitch = NSButton; 
+                startMinimizedSwitch = NSButton; 
+                timerAmountField = NSTextField; 
+                timerUnitPopup = NSPopUpButton; 
+                useAltivecSwitch = NSButton; 
+                useMPSwitch = NSButton; 
+                useTimerSwitch = NSButton; 
+                whichPalettePopup = NSPopUpButton; 
+                whichScreensPopup = NSPopUpButton; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = "java.lang.Object"; LANGUAGE = Java; }
+    ); 
+    IBVersion = 1; 
+}

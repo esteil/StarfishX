@@ -1,0 +1,166 @@
+Release Notes:
+
+Version 2.0 - 07/06/03
+======================
+* Brand new pattern generating engine! Many, many thanks to Mars Saxman for
+writing and sharing this amazing new engine. The Starfish 2.0 engine has about
+four times the number of individual generators as the Starfish 1.x generator, so
+it will generate some very different (and *VERY* cool) patterns. This new
+generator is also Altivec-ready, so it's screamin' fast on a G4 machine.
+* New interface on the main window. You can make the window much smaller now.
+The controls which were formerly on the "Pattern" and "Advanced" tabs (along
+with the New Pattern button) are now in a drawer on the left of the main window,
+while the "Recent" controls are now in a drawer on the right. The settings
+formerly in the "Control" tab have been moved to the Preferences dialog.
+* StarfishX now comes as two separate downloads. One for G4 and higher machines,
+and one for G3 machines. This is so that G4 users can realize a 15% performance
+improvement over an all-in-one version of StarfishX.
+* Copy now works with the currently selected recent pattern. Now you can copy
+and paste patterns into other programs!
+* Double-clicking on a recent pattern will install that pattern on the main
+display (same as typing Command-1).
+* Because the new generator does not generate seamless patterns by default, the
+Arrange option "Tile" has been changed to "Tile (seamless)" and a "Tile (not
+seamless)" options has also been added. If you are generating anything other
+than a full-screen pattern, these two settings will control whether or not the
+pattern created is seamless or not. (Full-screen patterns are never seamless,
+since they won't tiled).
+* You can now drag and drop from the recent list into other applications, in
+addition to using Edit/Copy to copy the selected pattern to the clipboard. By
+default, dragging to the Finder will make an alias to the original file, but you
+can hold down the option key to cause the file to be copied to the drag
+location.
+* Preferences are now organized in tabs, somewhat similar to the tabs used on
+the main window in the 1.x version.
+* Added a JPEG quality slider to the Advanced tab in the Preferences sheet. You
+probably won't want to use anything less than 80% for your desktop.
+* TIFF patterns now use LZW compression (lossless) to reduce disk space usage.
+* Added drag & drop reordering to the Edit Palettes lists.
+* You can now drag from the recent pictures list to the "Next seed:" field, as
+well as the "Size:" and "Palette:" popups. Doing so will attempt to set the drag
+target to the value used for the recent pattern you are dragging.
+* You can now start continuous pattern generation by holding the option key
+while pressing the New Pattern button. You can also skip the current pattern and
+immediately start generating a new pattern by holding down the option key and
+pressing the Stop button. Note that this feature works for single and continuous
+pattern generation. The title of the New Pattern/Stop button will change
+appropriately when you press/release the option key.
+* Because of the above change, the shortcut key for the "Create Until Recent
+Cache Full" has been changed from Command-Shift-N to Command-Option-N. This item
+will now become "Skip Current Pattern" (with shortcut key of Command-Option-.)
+when a pattern is being generated and has the same effect as clicking the Stop
+button while holding the option key.
+* The recent pattern information (including the thumbnails) are now stored in a
+file at "~/Library/Caches/StarfishX Recent Patterns Cache". If you delete this
+file, you will cause StarfishX to forget about all recent patterns.
+* Preferences are now stored in the org.mscott.starfishx.plist file in
+~/Library/Preferences. Old preferences should be automatically migrated from
+~/Library/Preferences/StarfishX.plist.
+* Added new palettes, "Savannah", "Storm", and "Atlantis". Thanks to S. Rooks!
+* Added French localization. Many thanks to Bwass for the translation!
+
+
+Version 1.5 - 03/31/03
+======================
+* Added an "Edit" menu to allow for Cut/Copy/Paste
+* Fixed bug where Command-N would sometimes stop pattern generation (it should
+have been Command-. and now it is).
+* Added Command-Shift-N as a shortcut for "Create until recent cache full".
+* Added new palette, "Sky". Thanks to Todd S.!
+* Moved all the options which were previously on the Advanced tab to the new
+Preferences sheet.
+* Improved the generation of random numbers.
+* You can now seed the random number generator to create the same pattern with
+different sizes/palettes. Also, if you find a really cool pattern, other
+StarfishX users can create it themselves just by giving them the seed value used
+(see FAQ for some caveats).
+* Added an option to allow you to specify the exact size of patterns created.
+* Added a "random (no full spectrum) option to the palette popup menu.
+* Added a badge icon to the StarfishX's dock image while creating patterns.
+* Changed "Delete" button on Recent tab to "Trash". StarfishX will now move
+files to Trash instead of deleting them immediately (and irreversibly).
+* StarfishX will now scan the patterns in the recent patterns cache and
+automatically "forget" any patterns which you've moved/deleted from the Desktop
+Pictures folder.
+* Fixed yet another bug which might cause StarfishX to create non-full-screen
+patterns when full-screen is requested.
+
+Version 1.4b2 - 03/18/03
+========================
+* Change the code so StarfishX will generate a truly full-screen pattern on the
+main monitor.
+
+Version 1.4b1 - 03/18/03
+========================
+* Added an option to automatically check for a newer version of StarfishX when
+StarfishX launches.
+* Added a "Run at reduced priority" option on the Advanced tab. This is on by
+default and will give other processes on your system more time relative to
+StarfishX (so it doesn't bring your machine to a grinding halt). This will have
+virtually no effect on pattern generation times on an otherwise idle system.
+* Fixed a bug which could cause StarfishX to be confused about the size of your
+monitor(s).
+
+Version 1.3b1 - 03/13/03
+========================
+* Each new pattern now has a unique file name. This eliminates the weird
+double-set of the desktop when installing the new pattern. It also allows for:
+* Added option to keep recent patterns (5, 10, 25, 50, 100, 250 or 500). See the
+Read Me file for more information.
+* Added a table to review all recent patterns and optionally to manually Save,
+Install on desktop, or Delete any recent pattern.
+* Added "Pattern" menu with 'Create New Pattern' and 'Create Until "Recent"
+Cache Full'.
+* Added a line of text under the main image well which indicates the palette
+used and size of the pattern selected/being generated.
+* Added address and link to StarfishX website in the About StarfishX window.
+* The main window can now be closed (and will remain closed on subsequent
+launches). This lets StarfishX essentially run as just an icon in the dock. When
+the main window is closed, clicking on StarfishX's icon in the Dock will re-open
+it. Also, the usual Command-O/W will open and close the main window while
+StarfishX is the front-most application.
+* Similarly, the "Minimize main window at startup" option has been removed in
+favor of simply remembering if the main window was minimized when you last quit
+StarfishX. (Note that you can quit StarfishX from its Dock icon by
+control-clicking on it.)
+* The tab you were last on is now remembered the next time you launch the
+program.
+* Improved overall performance of a core AltiVec function used by almost all the
+generators. You probably won't notice the difference, however, except in some
+very rare cases when the generator would actually come to a complete stop.
+
+Version 1.2b2 - 03/05/03
+========================
+* Fixed a big, nasty memory leak introduced in 1.2b1. Very bad. :-(
+
+Version 1.2b1 - 03/05/03
+========================
+* Added palette editing. See the Read Me file for more information.
+* Added six new default palettes: Aqua, USA, Halloween, Christmas, Easter, and
+Bronco
+* The "random" palette option now includes "full-spectrum" in the list of
+possible palettes.
+* Cleaned up timer options to reset time when you change the time interval.
+* Fixed a small memory leak when running multi-threaded.
+* Other minor code clean-up as I learn more about Cocoa. :-)
+
+Version 1.1b1 - 02/26/03
+========================
+* Added timer options to automatically generate new patters after specified time
+period. (Provided you leave the program running.)
+* Added dock menu with option to start/stop pattern generation.
+* The position and size of the main window are now remembered between launches.
+* When the main window is minimized, the dock icon for the window shows the
+current progress of the image being generated (or the last complete image
+generated).
+* Added option to minimize the main window at startup.
+* Added popup menu to control how the pattern is installed on your monitor
+(using the same options available in the Desktop preference pane). The default
+it "Tile".
+* Added a numeric prefix to the display names in the "For:" monitor popup. This
+should restore secondary monitor(s) to the menu when there were matching names
+(such as "Apple Studio Display").
+
+Version 1.0b1 - 02/18/03
+========================
+Initial public release.

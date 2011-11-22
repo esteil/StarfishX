@@ -1,0 +1,336 @@
+{\rtf1\mac\ansicpg10000\cocoartf102
+{\fonttbl\f0\fswiss\fcharset77 Helvetica-Bold;\f1\fswiss\fcharset77 Helvetica;\f2\fswiss\fcharset77 ArialMT;
+\f3\fswiss\fcharset77 Arial-BoldMT;\f4\fswiss\fcharset77 Helvetica-Oblique;\f5\fswiss\fcharset77 Helvetica-BoldOblique;
+\f6\fmodern\fcharset77 CourierNewPSMT;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue128;}
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\qc
+
+\f0\b\fs44 \cf0 StarfishX
+\f1\b0\fs24 \
+version 2.0\
+July 6, 2003\
+http://homepage.mac.com/mscott/\
+\
+Copyright 2003 M. Scott Marcy\
+Starfish engine copyright 1999-2003 Mars Saxman\
+Altivec enhanced Starfish engine copyright 2001-2003 M. Scott Marcy\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+\cf0 \
+
+\f0\b\fs30 \ul License
+\f1\b0\fs24 \ulnone \
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.\
+\
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of\
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\
+\
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software\
+Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.\
+\
+
+\f0\b\fs30 \ul Credits
+\f1\b0\fs24 \ulnone \
+First and foremost, 99.99% of the credit belongs to Mars Saxman, who wrote the original Starfish program and made it open source. Without him and his generosity, you and I wouldn't have StarfishX today!\
+\
+I
+\f2 n addition, I'd like to thank my beta testers for helping me to find and fix bugs 
+\f3\b before 
+\f2\b0 I release StarfishX publicly: Todd S., Dan W., John B., Bwass, Elbert W., Trevor M-L, and James G. \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+\cf0 \
+Big, huge thanks to James G. for a new web design! Sure beats the old one. \
+\
+Thanks to Bwass for the French translation of StarfishX! 
+\f1 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+\cf0 \
+
+\f0\b\fs30 \ul About StarfishX\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f2\b0\fs24 \cf0 \ulnone StarfishX is a Mac OS X-native application which generates cool desktop patterns. It is based on 
+\f1 Mars Saxman's Starfish
+\f2 \cf2  \cf0 pattern generation engine. The following are a few of the highlights of StarfishX: \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f1 \cf0 \'a5 Mac OS X native cocoa application.\
+\'a5 Altivec-enabled and multi-threaded to take full advantage of today's dual (and single) processor G4 PowerMacs. (There is also a version of Starfish X which will run on a G3 Macintosh, although it's 
+\f0\b much
+\f1\b0  slower).\
+\'a5 Support for multiple monitors (you can generate a different pattern for each monitor connected to your computer).\
+\'a5 Support for both TIFF and JPEG image files.\
+\'a5 Option to quit StarfishX when all patterns have been generated. (Perfect for use as a startup item!)\
+\'a5 Keeps track of recently-created patterns so you can go back to that really cool pattern StarfishX created yesterday.\
+\
+
+\f0\b\fs30 \ul System Requirements\
+
+\f1\b0\fs24 \ulnone \'a5 Any Macintosh running Mac OS X 10.2 or later.\
+\'a5 The Altivec-enabled version of StarfishX requires a Macintosh with a G4 or later processor.\
+\'a5 StarfishX-G3 will run on any Macintosh which supports Mac OS X 10.2, but it will run 
+\f0\b much
+\f1\b0  slower than the Altivec-enabled version.\
+\'a5 About 1MB of hard disk space for the application, and upwards of 5MB of hard disk space for each full-screen TIFF image. (This is why there's an option to use JPEG images, and smaller patterns use significantly less disk space.)\
+\
+
+\f0\b\fs30 \ul How to use StarfishX\
+
+\f1\b0\fs24 \ulnone It's fairly straightforward, but I'll try to give a brief overview of what each option does.\
+\
+
+\f0\b\fs30 \ul Settings (left) drawer
+\fs26 \ul :
+\f1\b0\fs24 \ul \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f0\b \cf0 \ulnone Pattern size:
+\f1\b0  Pretty self-explanatory. "Small" patterns range from 64x64 pixels to about 1/16th the size of the monitor. "Medium" patterns range from 1/8th to 1/4th of the size of the screen. "Large" patterns range from 1/4 to 1/2 the size of the screen. "Full-screen" is exactly what it suggests. "Random" picks a "small," "medium," "large," or "full-screen" size. "Random (no full-screen)" picks only from "small," "medium," or "large"\'d1useful for generating random patterns which don't take too long to generate or too much disk space. You may also specify a fixed size of your own by selecting the "Custom Size\'c9" option. Custom sizes must be between 16x16 and 9999x9999. Be prepared to wait all day (or even all week!) to generate a 9999x9999 pattern. Note that when you use the Velocity Engine (Altivec)-optimized generator, the width of the pattern will automatically be rounded down to an even multiple of 4.\
+\
+
+\f0\b Palette: 
+\f1\b0 Tells Starfish what colors to use when generating the pattern. "Full spectrum" picks colors at random from the entire RGB color space. "Random" picks from any of the listed palettes and "full spectrum." "Random (no full spectrum) picks only from the listed palettes. The other palettes attempt to use descriptive names for the colors that will be used. If you select the "Edit..." item from this menu, a sheet will drop down out of the main window which will let you edit the palettes StarfishX uses. See the section "Editing Palettes," below.\
+\
+
+\f0\b Arrange:
+\f1\b0  This option is used to tell the Desktop System Preference pane how to arrange the pattern on the desktop. These options correspond directly to the same-named options in the Desktop System Preference pane.\
+\
+
+\f0\b For:
+\f1\b0  Which monitor(s) to generate patterns for. "All screens" will generate a different pattern for each monitor connected to your computer. Otherwise, pick the display which will receive the generated pattern.\
+\
+
+\f0\b Random Seed:
+\f1\b0  This section lets you specify how the random numbers StarfishX uses are seeded. The "seed" for random numbers determine which numbers are generated and in what order. When given the same seed, the random number generator used by StarfishX will generate the same sequence of numbers, thereby generating the same pattern (provided you use the same non-random settings). The "sequential" and "random" seed options will have StarfishX create a unique pattern each time, whereas the "Use constant seed value" option will cause StarfishX to use the same seed value for all subsequent patterns created. This option is useful when you wish to experiment with a different pattern size or palette but keep the same underlying patterns. Note that you can enter a new seed value at any time, regardless of the setting of the radio buttons here and StarfishX will use that seed value for the next pattern it creates. The "sequential", "random", and "constant" options describe what happens to this seed value 
+\f0\b after
+\f1\b0  StarfishX has finished creating a new pattern.\
+\
+(See the FAQ section for more information on how this whole Random Seed stuff works.)\
+
+\f0\b\fs26 \ul \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\fs30 \cf0 \ul Recent (right) drawer
+\fs26 \ul :
+\f1\b0\fs24 \ul \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f0\b \cf0 \ulnone Keep N most recent patterns:
+\f1\b0  StarfishX will keep track of this many recent patterns (sometimes referred to as the "Recent Cache", allowing you to go back and save or re-install particularly good patterns. Note that once StarfishX is tracking the specified number of patterns, creating a new pattern will cause the oldest pattern in the cache to be deleted from your hard disk to make room for the new pattern. Also, if you change this setting to a number which is less than the number of patterns already in the Recent Cache, the oldest patterns will be moved to the Trash until only the specified number of patterns remain.\
+\
+
+\f0\b Review recent patterns:
+\f1\b0  You can select any of the recent patterns in this list to have it loaded into the image well to the right. Information about the pattern (the palette used and the size of the pattern) is displayed below the image. Once you've selected a pattern, you then have the following options:\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li740\fi-20\ql\qnatural
+
+\f0\b \cf0 Save...:
+\f1\b0  Saves the selected pattern to the name and directory of your choosing. Any pattern you save this way will never be deleted by StarfishX (unless you save over a pattern StarfishX is currently tracking). The original pattern will remain in the Recent cache until you delete it manually or it is forced out by new patterns.\
+\
+
+\f0\b Install on:
+\f1\b0  This drop-down menu contains a list of all your monitors. Picking a monitor from this list will install the currently selected pattern on that monitor.\
+\
+
+\f0\b Trash:
+\f1\b0  Moves the selects pattern from your home directory to the Trash. Note that this happens immediately, without any confirmation. Pressing Command-Delete while on the "Recent" tab has the same effect as clicking this button.\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+\cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f0\b \cf0 Create Until "Recent" Cache Full:
+\f1\b0  Located under the "Pattern" menu (and in the Dock menu for StarfishX), selecting this option will cause StarfishX to generate new patterns continuously until StarfishX has created enough patterns to fill the "recent" cache (the number of patterns specified by the "Keep N most recent patterns" option). Note that patterns generated this way are not installed on the desktop by StarfishX. You may go back later and install any pattern(s) you like with the "Review recent patterns" controls. Note that once this command has completed, you will not be able to run it again until you delete some patterns or increase the number of recent patterns StarfishX tracks.\
+\
+Once you have the options set the way you like, press the "New Pattern" button to start StarfishX generating a new pattern for each monitor specified. If you have selected the "Quit when finished" option, Starfish will automatically terminate when it has generated the final pattern requested.\
+\
+All of the options you specify here will be saved when you quit StarfishX.\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f0\b\fs30 \cf0 \ul Preferences
+\fs26 \ul :
+\f1\b0\fs24 \ulnone  (under the StarfishX menu)\ul \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f0\b\fs26 \cf0 \ul Automatic:
+\f1\b0\fs24 \ul \
+
+\f0\b \ulnone Create new pattern when StarfishX starts:
+\f1\b0  This tells StarfishX to automatically begin generating patterns when it runs. Otherwise, it will wait for you to press the New Pattern button. Useful when you want to use StarfishX to generate new desktop patterns when you first login.\
+\
+
+\f0\b Create new pattern on wake from sleep:
+\f1\b0  This tells StarfishX to automatically begin generating patterns when your computer wakes from sleep. This option will only work if you left StarfishX running when your computer went to sleep.\
+\
+
+\f0\b Generate a new pattern every N minutes/hours/days/weeks:
+\f1\b0  You can use this option to tell StarfishX to automatically generate new desktop patterns at the selected time interval. You can optionally select the "Minimize while waiting" option to have StarfishX minimize its window to the dock while it's waiting for the time to generate a new pattern. The window will automatically de-minimize when it is time to generate a new pattern. If you want StarfishX to always minimize its main window (even while it's generating new patterns), minimize the StarfishX window (just like you would any other window in Mac OS X) and 
+\f4\i deselect 
+\f1\i0 the "Minimize while waiting" option.\
+\
+
+\f0\b Quit when pattern creation complete:
+\f1\b0  Exactly what it says. StarfishX will quit when it has finished generating patterns for all specified monitors. This option can't be used in conjunction with the "Generate a new pattern every N minutes/hours/days/weeks" option (below).\
+\
+
+\f0\b\fs26 \ul Updates:
+\f1\b0\fs24 \ulnone \
+
+\f0\b Check for newer version at startup:
+\f1\b0  Turn on this option to have StarfishX check its website ( http://homepage.mac.com/mscott/ ) for a newer version every time it starts up. This check requires an active internet connection (otherwise it does nothing). This option causes StarfishX to read a very small file from its website and compare the version information found there with the version of StarfishX you are running.\
+\
+StarfishX sends no personally-identifiable information when requesting this file. However, since this website is run by Apple Computer and not me, Apple will undoubtedly log your IP address and possibly some other information (the same information they would have logged if you downloaded StarfishX from its homepage). I (the developer of StarfishX) have no access to this information and have no desire to track you in any way. However, I can't guarantee what Apple Computer might do with this information (although I highly doubt there's anything sensitive in what they log). So if you're 
+\f4\i really
+\f1\i0  paranoid, you can turn this option off.\
+\
+StarfishX will ask you if you want to enable version checking the first time you run it on your computer. After than, you can always change your mind at any time by returning to the Advanced tab and changing this option.\
+\
+
+\f0\b Check Now:
+\f1\b0  Click this button to have StarfishX check its website immediately for a newer version (as described above). You can use this option at any time (provided you have an internet connection), regardless of the above setting.\
+\
+
+\f0\b\fs26 \ul Advanced:
+\f1\b0\fs24 \ulnone \
+
+\f0\b File format:
+\f1\b0  What kind of image files to generate. "TIFF file (best quality)" will output the generated patterns in a TIFF file with little or no compression. A full-screen pattern at 1280x1024 will take about 5MB of disk space (and probably RAM), but will result in the sharpest image. "JPEG (smaller size)" will output the generated patterns in a JPEG file set to 100% quality. This will reduce the disk space (and possibly RAM) required for the image, at a (potential) slight loss of image quality. This value defaults to "JPEG" because the difference in quality is minute but the difference in file size is substantial (on the order of 1/5th to 1/10th the TIFF file size).\
+
+\f0\b \
+Quality:
+\f1\b0  If the "File format:" popup menu is set to JPEG, this slider specifies the quality of the final image. Higher values result in sharper images which use more disk space. Lower values result in images that use less disk space, but at reduced quality. Any value less than 80-90% is probably going to look bad. This option is disabled if the "File format:" popup menu is set to TIFF, since it does not apply to TIFF images.\
+\
+
+\f0\b Use multiple processors:
+\f1\b0  When this option is enabled, StarfishX will divide the work of generating each pattern amongst the available processors. On a dual processor Mac, this will generate desktop patterns nearly twice as fast (at the expense of other system operations, in some cases). If your machine has more than one processor, this option will be enabled by default. If your machine only has one processor, this option will be disabled.\
+\
+
+\f0\b Use Velocity Engine (Altivec):
+\f1\b0  This option tells StarfishX whether or not to use the vector processor on a G4 or later to accelerate pattern generation. If your machine has a processor which supports Altivec (basically a G4 or later), this option will be enabled by default. If your machine does not support Altivec (i.e., G3 Macintoshes), this option will be disabled.\
+\
+The above two options are really available so you can see the difference Altivec and multiple processors makes. If you have a dual processor G4 and turn these two options off, you can get a feeling for what it's like to run StarfishX on a similarly-clocked G3 machine. :-)\
+\
+
+\f0\b Run at reduced priority:
+\f1\b0  Enable this option to have StarfishX run at the lowest possible priority. All this really means is that if some other process needs the processor, StarfishX will not hog the CPU. This will make your computer more responsive if you are trying to do other things while StarfishX is creating a pattern. Turning this option off will give more time to StarfishX when other applications are using the CPU. Because OS X uses preemptive multitasking and most OS X applications are good about not using the CPU when they're not actually doing anything, leaving this option turned on will not actually slow down pattern generation on an otherwise idle machine. Note that turning this option off requires that you quit and restart StarfishX before it takes effect (although it takes effect immediately when you turn it on). The default is to run at reduced priority. \
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f0\b\fs30 \cf0 \ul FAQ
+\f1\b0\fs24 \ulnone \
+Here are the answers to some frequently asked questions:\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f0\b \cf0 Q.
+\f1\b0  StarfishX seems to create a pattern, but it doesn't appear on my desktop. What's wrong?\
+
+\f0\b A.
+\f1\b0  If you have your Desktop system preferences set to "Change picture: every...", the patterns created by StarfishX won't be shown on your desktop. Just disable this option and you should see the pattern last created by StarfishX.  \
+\
+
+\f0\b Q.
+\f1\b0  How do I remove a pattern installed by StarfishX?\
+
+\f0\b A.
+\f1\b0  Simply open System Preferences, select the "Desktop" pane, and select a new pattern/picture. You may also want to delete the image file(s) generated by StarfishX. These are stored in your Home directory, in the Library/Desktop Pictures folder.\
+\
+
+\f0\b Q.
+\f1\b0  How do I remove StarfishX from my system?\
+
+\f0\b A.
+\f1\b0  Simply drag the application to the Trash. If you also want to remove the pattern installed by StarfishX, follow the instructions above.\
+\
+
+\f0\b Q.
+\f1\b0  How come it's so slow? I thought Altivec was screaming fast?\
+
+\f0\b A.
+\f1\b0  Altivec can be screaming fast, and using Altivec to generate patterns is 4-5 times faster than not using it. However, each pattern StarfishX generates is random, and some patterns are much more complicated that others. Also, if you're using the random size option, a larger pattern will take longer to generate than a smaller pattern (that's one of the reasons for the "Random (no full-screen)" size option--full-screen patterns can take a very long time to generate).\
+\
+Also, since Mac OS X is a multi-tasking operating system, any other processes you have running at the same time will slow down StarfishX. This means that using StarfishX at login time with a bunch of other login items will slow StarfishX down (and StarfishX will slow the other processes down, too).\
+\
+Bottom line: you should expect a fairly wide range of pattern generation times when using StarfishX (especially if you're using random pattern sizes).\
+\
+
+\f0\b Q.
+\f1\b0  Why can't I use both the "Quit when pattern complete" and "Generate new pattern every n minutes/hours/days/weeks" options at the same time?\
+
+\f0\b A.
+\f1\b0  Because StarfishX can't automatically generate new patterns are specified intervals unless it's left running. You can use the "Minimize while waiting" option to make StarfishX be as unobtrusive as possible while it's waiting to generate the next pattern.\
+
+\f0\b \
+Q.
+\f1\b0  What happens if I quit StarfishX while it's waiting to generate a new pattern?\
+
+\f0\b A.
+\f1\b0  StarfishX will remember the time the next new pattern is supposed to be generated and will resume waiting until this time the next time you launch StarfishX. If that time has passed when you next launch StarfishX, it will create a new pattern immediately upon launch.\
+\
+
+\f0\b Q.
+\f1\b0  StarfishX recently generated a pattern which I think is really cool. I want to try using a different palette (and/or pattern size). How do I find the seed value for that pattern so I can set StarfishX to use this seed value again?\
+
+\f0\b A.
+\f1\b0  
+\f2 Select the pattern you like in the recent patterns drawer. The seed value used for this pattern is the first number in the pattern's file name, and when you select a pattern, the seed value is the last part of the information displayed under the large preview. To set the seed value StarfishX will use for the next pattern created, make sure the controls drawer is open and enter this seed value in the "Next seed:" field. As a shortcut, you can simply drag the pattern from the recent list to the "Next seed:" field. (See the FAQ item below about random palettes/sizes with constant seed values.) 
+\f1 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f0\b\fs30 \cf0 \ul \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\fs24 \cf0 \ulnone Q.
+\f1\b0  When I select the "Use constant seed value" for the Random Seed option, the pattern created is exactly the same each time, even though I've selected to use a random size/palette.\
+
+\f0\b A.
+\f1\b0  Yes, this is exactly right. This is what it means to use a constant random seed\'d1you get the exact same random numbers (and therefore random size/palette) each time. You can manually change the size and/or palette popups to generate the same basic pattern at a different size or with a different set of colors. But the "random" options will always be the same for the same seed value.\
+\
+
+\f0\b Q.
+\f1\b0  I don't see any seed value listed for some of the patterns in my recent list. Why?\
+
+\f0\b A.
+\f1\b0  Two possible reasons: 1) The window may just be too small to display all the informational text about the selected pattern. To solve this, just drag the window bigger. 2) Patterns created with versions of StarfishX prior to 1.5 did not record the seed value used. Therefore, these patterns have unknown seed values. Unfortunately, there is no way to re-create patterns created by versions of StarfishX earlier than version 1.5. Fortunately, StarfishX will undoubtedly create more cool patterns in the future. :-)\
+\
+
+\f0\b Q.
+\f1\b0  I gave a friend the seed value for a really cool pattern StarfishX created for me, but when he tried it he got a different pattern. Why?\
+
+\f0\b A.
+\f1\b0  The most likely reason is because you have different palettes defined. If either of you have added or removed palettes (or edited any of the initial palettes), you may get different results even though you both use the same seed value. You should also tell your friend which palette you used and have him specifically select that palette before having StarfishX create the pattern. If your friend doesn't have that palette, he won't be able to create the exact same pattern (although he'll get something similar).\
+\
+The other possibility is that you two are running different versions of OS X. It is possible that Apple might change the implementation of the random number generator that StarfishX uses, leading to different random numbers and therefore different patterns for the same seed value. This is probably not very likely, but it 
+\f5\i\b IS
+\f1\i0\b0  possible if you are not using the same exact version of OS X.\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f0\b\fs30 \cf0 \ul \
+Editing Palettes
+\f1\b0\fs24 \ulnone \
+StarfishX starts off with a set of about a dozen default palettes. Using the "Edit..." option under the "Palette:" popup menu, you may edit or remove any of the default palettes, and add your own custom palettes for StarfishX to use. The interface is fairly straightforward. However, keep in mind the following notes about how StarfishX uses these palettes:\
+\
+1) A palette must contain at least two colors.\
+2) Not all colors in a palette will be used by all patterns. The 
+\f0\b number
+\f1\b0  of colors (as well as 
+\f0\b which
+\f1\b0  colors) used is determined randomly for each pattern. Palettes with lots (more than about eight) will rarely use all the colors available for any given pattern.\
+
+\f0\b\fs30 \ul \
+For Geeks Only
+\f1\b0\fs24 \ulnone \
+This section is for those who want to build StarfishX from source code or to learn other minutiae about StarfishX.\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f0\b\fs26 \cf0 \ul \
+Source code:\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f1\b0\fs24 \cf0 \ulnone The source code for StarfishX is available from SourceForge: http://sourceforge.net/projects/xstarfish/\
+\
+StarfishX is built from a ProjectBuilder project, not from the traditional Unix 
+\f6 make
+\f1  command. That's because I have made no effort to make this application cross-platform. However, I have tried my best to make the Altivec enhancements to Mars Saxman's original Starfish engine as cross-platform as possible. However, I have only ever compiled the Altivec Starfish engine under Mac OS 9 and X. If you find it doesn't work for your non-Mac PPC computer, feel free to fix it. :-)\
+}

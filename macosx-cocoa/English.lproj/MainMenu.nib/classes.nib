@@ -1,0 +1,114 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {changedHeight = id; changedWidth = id; done = id; }; 
+            CLASS = CustomSizeController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                doneButton = NSButton; 
+                heightField = NSTextField; 
+                messageText = NSTextField; 
+                widthField = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {
+                addColor = id; 
+                addPalette = id; 
+                done = id; 
+                removeColor = id; 
+                removePalette = id; 
+                selectColor = id; 
+                selectPalette = id; 
+            }; 
+            CLASS = EditPalettesController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                addColorButton = id; 
+                addPaletteButton = id; 
+                colorsText = id; 
+                componentsList = id; 
+                doneButton = id; 
+                palettesList = id; 
+                removeColorButton = id; 
+                removePaletteButton = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = MyImageView; LANGUAGE = ObjC; SUPERCLASS = NSImageView; }, 
+        {CLASS = MyPatternControlsView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = MyPopUpButton; LANGUAGE = ObjC; SUPERCLASS = NSPopUpButton; }, 
+        {CLASS = MyTableView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }, 
+        {CLASS = MyTextField; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }, 
+        {CLASS = MyWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {
+            ACTIONS = {done = id; }; 
+            CLASS = PreferencesController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                checkVersionNowButton = NSButton; 
+                checkVersionSwitch = NSButton; 
+                doneButton = NSButton; 
+                fileFormatPopup = NSPopUpButton; 
+                lowPrioritySwitch = NSButton; 
+                useAltivecSwitch = NSButton; 
+                useMPSwitch = NSButton; 
+                versionCheckStatusText = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {
+                changedArrangePopup = id; 
+                changedMaxRecentPicts = id; 
+                changedPalettePopup = id; 
+                changedRandomOption = id; 
+                changedRandomSeed = id; 
+                changedSizePopup = id; 
+                changedWhichScreenPopup = id; 
+                deletePattern = id; 
+                doAboutBox = id; 
+                doCheckVersion = id; 
+                doEditPreferences = id; 
+                installRecentPatternOnDesktop = id; 
+                newPattern = id; 
+                newPatternsUntil = id; 
+                openCloseMainWindow = id; 
+                savePatternAs = id; 
+                showHideControlsDrawer = id; 
+                showHideRecentDrawer = id; 
+            }; 
+            CLASS = StarfishController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                controlsArrowButton = NSButton; 
+                controlsDrawer = NSDrawer; 
+                customSizeItem = NSMenuItem; 
+                deleteButton = NSButton; 
+                imageInfoText = NSTextField; 
+                imageWell = MyImageView; 
+                installPopup = NSPopUpButton; 
+                maxRecentPopup = NSPopUpButton; 
+                newPatternButton = NSButton; 
+                nextStartTimeField = NSTextField; 
+                numRecentText = NSTextField; 
+                patternMenu = NSMenu; 
+                patternSizePopup = MyPopUpButton; 
+                placementPopup = NSPopUpButton; 
+                randomSeedField = MyTextField; 
+                randomSeedOptionsMatrix = NSMatrix; 
+                recentArrowButton = NSButton; 
+                recentDrawer = NSDrawer; 
+                recentPictsTable = MyTableView; 
+                saveAsButton = NSButton; 
+                whichPalettePopup = MyPopUpButton; 
+                whichScreensPopup = NSPopUpButton; 
+                windowMenu = NSMenu; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

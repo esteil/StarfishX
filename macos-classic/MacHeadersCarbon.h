@@ -1,0 +1,1 @@
+// magic constants to make the headers build correctly#define TARGET_API_MAC_CARBON 1#define CARBON 1#define DEBUG debug#define BUILD_ALTIVEC 1#include "MacHeaders.c"
