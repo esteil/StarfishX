@@ -1,0 +1,1157 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		566F2BC804B5EFB6008AA971 /* All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DC4CA6B7147C0A4500879021 /* Build configuration list for PBXAggregateTarget "All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				566F2BC904B5EFBD008AA971 /* PBXTargetDependency */,
+				566F2BCA04B5EFBF008AA971 /* PBXTargetDependency */,
+			);
+			name = All;
+			productName = All;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXApplicationTarget section */
+		29B97326FDCFA39411CA2CEA /* XStarFish */ = {
+			isa = PBXApplicationTarget;
+			buildConfigurationList = DC4CA6AD147C0A4500879021 /* Build configuration list for PBXApplicationTarget "XStarFish" */;
+			buildPhases = (
+				566F2BD604B5F156008AA971 /* CopyFiles */,
+				563922D004B602B800E3F2AD /* CopyFiles */,
+				29B97327FDCFA39411CA2CEA /* Headers */,
+				29B97328FDCFA39411CA2CEA /* Resources */,
+				29B9732BFDCFA39411CA2CEA /* Sources */,
+				29B9732DFDCFA39411CA2CEA /* Frameworks */,
+				566F2BE004B5FBF1008AA971 /* CopyFiles */,
+			);
+			dependencies = (
+			);
+			name = XStarFish;
+			productInstallPath = "~/Projects/xstarfish/starfishx";
+			productName = XStarFish;
+			productReference = 17587328FF379C6511CA2CBB /* StarfishX.app */;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>StarfishX</string>
+	<key>CFBundleGetInfoString</key>
+	<string>StarfishX version 2.0 Copyright 2001-2003 M. Scott Marcy.</string>
+	<key>CFBundleIconFile</key>
+	<string>app.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.mscott.starfishx</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>StarfishX</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.0</string>
+	<key>CFBundleSignature</key>
+	<string>smsf</string>
+	<key>CFBundleVersion</key>
+	<string>2.0</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.2.0</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>
+";
+		};
+		56DCA5F104B5DBE50012246B /* XStarfish-G3 */ = {
+			isa = PBXApplicationTarget;
+			buildConfigurationList = DC4CA6B2147C0A4500879021 /* Build configuration list for PBXApplicationTarget "XStarfish-G3" */;
+			buildPhases = (
+				566F2BDB04B5F1C2008AA971 /* CopyFiles */,
+				56DCA5EC04B5DBE50012246B /* Headers */,
+				56DCA5ED04B5DBE50012246B /* Resources */,
+				56DCA5EE04B5DBE50012246B /* Sources */,
+				56DCA5EF04B5DBE50012246B /* Frameworks */,
+				566F2BFF04B5FF0A008AA971 /* CopyFiles */,
+			);
+			dependencies = (
+			);
+			name = "XStarfish-G3";
+			productInstallPath = "../../starfishx-g3";
+			productName = "XStarfish-G3";
+			productReference = 56DCA5F204B5DBE50012246B /* StarfishX-G3.app */;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>StarfishX-G3</string>
+	<key>CFBundleGetInfoString</key>
+	<string>StarfishX-G3 version 2.0 Copyright 2001-2003 M. Scott Marcy.</string>
+	<key>CFBundleIconFile</key>
+	<string>app.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.mscott.starfishx</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>StarfishX-G3</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.0</string>
+	<key>CFBundleSignature</key>
+	<string>smsf</string>
+	<key>CFBundleVersion</key>
+	<string>2.0</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.2.0</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>
+";
+		};
+/* End PBXApplicationTarget section */
+
+/* Begin PBXBuildFile section */
+		089C165EFE840E0CC02AAC07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		1890140F0415299D00C9CC6D /* EditPalettesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1890140D0415299D00C9CC6D /* EditPalettesController.m */; };
+		189014130415311E00C9CC6D /* PaletteEditor.nib in Resources */ = {isa = PBXBuildFile; fileRef = 189014110415311D00C9CC6D /* PaletteEditor.nib */; };
+		29B9732CFDCFA39411CA2CEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		561CC0F6042050E3000001D2 /* MyTableCells.m in Sources */ = {isa = PBXBuildFile; fileRef = 561CC0F4042050E3000001D2 /* MyTableCells.m */; };
+		561E3AD704A75E6D00000102 /* MyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 561E3AD504A75E6D00000102 /* MyWindow.h */; };
+		561E3AD804A75E6D00000102 /* MyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 561E3AD604A75E6D00000102 /* MyWindow.m */; };
+		561E3AD904A75E7A00000102 /* SFXUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 569F18C0043D0EED000001D2 /* SFXUtilities.h */; };
+		561E3ADA04A75E7B00000102 /* MyTableCells.h in Headers */ = {isa = PBXBuildFile; fileRef = 561CC0F3042050E3000001D2 /* MyTableCells.h */; };
+		561E3ADB04A75E7C00000102 /* PreferencesController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5678B33E042D15E100FEC0E1 /* PreferencesController.h */; };
+		561E3ADC04A75E7D00000102 /* EditPalettesController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1890140C0415299D00C9CC6D /* EditPalettesController.h */; };
+		561E3ADD04A75E7D00000102 /* CustomSizeController.h in Headers */ = {isa = PBXBuildFile; fileRef = 563FC89F042F8FB8000001D2 /* CustomSizeController.h */; };
+		561E3ADE04A75E7F00000102 /* StarfishGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = F59D314A0188A1A001A8010A /* StarfishGenerator.h */; };
+		561E3ADF04A75E7F00000102 /* StarfishControllerPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5687041C042FDFF2000001D2 /* StarfishControllerPrivate.h */; };
+		561E3AE004A75E8000000102 /* StarfishController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5DF0FF30184DA5101A8010A /* StarfishController.h */; };
+		561E3AE104A75E8400000102 /* starfish-engine.h in Headers */ = {isa = PBXBuildFile; fileRef = 568E38E20457342500528C70 /* starfish-engine.h */; };
+		561E3AE204A75E8400000102 /* starfish-altivec.h in Headers */ = {isa = PBXBuildFile; fileRef = 564E92A90450770E006DB226 /* starfish-altivec.h */; };
+		5622849F03F330A3000001D2 /* vecLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C8714601810F6A01A8010A /* vecLib.framework */; };
+		563922D104B602DB00E3F2AD /* whats-new.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 566F2BD104B5F128008AA971 /* whats-new.txt */; };
+		563FC89E042F8FA4000001D2 /* CustomSize.nib in Resources */ = {isa = PBXBuildFile; fileRef = 563FC89C042F8FA4000001D2 /* CustomSize.nib */; };
+		563FC8A2042F8FB8000001D2 /* CustomSizeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 563FC8A0042F8FB8000001D2 /* CustomSizeController.m */; };
+		564E92A804507709006DB226 /* starfish-altivec.c in Sources */ = {isa = PBXBuildFile; fileRef = 564E92A704507709006DB226 /* starfish-altivec.c */; };
+		5652A3E30460443F007F70E0 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 5652A3E10460443F007F70E0 /* MainMenu.nib */; };
+		566F2A3104B5DE61008AA971 /* StarfishController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5DF0FF30184DA5101A8010A /* StarfishController.h */; };
+		566F2A3204B5DE61008AA971 /* StarfishController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DF0FF40184DA5101A8010A /* StarfishController.m */; };
+		566F2A3304B5DE62008AA971 /* StarfishControllerPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5687041C042FDFF2000001D2 /* StarfishControllerPrivate.h */; };
+		566F2A3404B5DE62008AA971 /* StarfishController-Defaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 56870421042FE2B6000001D2 /* StarfishController-Defaults.m */; };
+		566F2A3504B5DE63008AA971 /* StarfishController-Desktop.m in Sources */ = {isa = PBXBuildFile; fileRef = 56870425042FE39C000001D2 /* StarfishController-Desktop.m */; };
+		566F2A3604B5DE63008AA971 /* StarfishController-Generation.m in Sources */ = {isa = PBXBuildFile; fileRef = 56870427042FE46C000001D2 /* StarfishController-Generation.m */; };
+		566F2A3704B5DE64008AA971 /* StarfishController-Recent.m in Sources */ = {isa = PBXBuildFile; fileRef = 5687041B042FDFF2000001D2 /* StarfishController-Recent.m */; };
+		566F2A3804B5DE64008AA971 /* StarfishController-VersCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 56870423042FE313000001D2 /* StarfishController-VersCheck.m */; };
+		566F2A3904B5DE65008AA971 /* StarfishGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = F59D314A0188A1A001A8010A /* StarfishGenerator.h */; };
+		566F2A3A04B5DE65008AA971 /* StarfishGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F59D314B0188A1A001A8010A /* StarfishGenerator.m */; };
+		566F2A3B04B5DE66008AA971 /* CustomSizeController.h in Headers */ = {isa = PBXBuildFile; fileRef = 563FC89F042F8FB8000001D2 /* CustomSizeController.h */; };
+		566F2A3C04B5DE66008AA971 /* CustomSizeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 563FC8A0042F8FB8000001D2 /* CustomSizeController.m */; };
+		566F2A3D04B5DE67008AA971 /* EditPalettesController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1890140C0415299D00C9CC6D /* EditPalettesController.h */; };
+		566F2A3E04B5DE68008AA971 /* EditPalettesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1890140D0415299D00C9CC6D /* EditPalettesController.m */; };
+		566F2A3F04B5DE68008AA971 /* PreferencesController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5678B33E042D15E100FEC0E1 /* PreferencesController.h */; };
+		566F2A4004B5DE69008AA971 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5678B33C042D15D600FEC0E1 /* PreferencesController.m */; };
+		566F2A4104B5DE69008AA971 /* MyImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 568FF60A04749EF100564E8F /* MyImageView.h */; };
+		566F2A4204B5DE6A008AA971 /* MyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 568FF60904749EF100564E8F /* MyImageView.m */; };
+		566F2A4304B5DE6B008AA971 /* MyPopUpButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 56776E1F04798B1800CD4152 /* MyPopUpButton.h */; };
+		566F2A4404B5DE6B008AA971 /* MyPopUpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 56776E2004798B1800CD4152 /* MyPopUpButton.m */; };
+		566F2A4504B5DE6C008AA971 /* MyTableCells.h in Headers */ = {isa = PBXBuildFile; fileRef = 561CC0F3042050E3000001D2 /* MyTableCells.h */; };
+		566F2A4604B5DE6C008AA971 /* MyTableCells.m in Sources */ = {isa = PBXBuildFile; fileRef = 561CC0F4042050E3000001D2 /* MyTableCells.m */; };
+		566F2A4704B5DE6D008AA971 /* MyTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 568D8FB6047688C600841818 /* MyTableView.h */; };
+		566F2A4804B5DE6D008AA971 /* MyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 568D8FB7047688C600841818 /* MyTableView.m */; };
+		566F2A4904B5DE6E008AA971 /* MyTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 56776E2304798B2C00CD4152 /* MyTextField.h */; };
+		566F2A4A04B5DE6E008AA971 /* MyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 56776E2404798B2C00CD4152 /* MyTextField.m */; };
+		566F2A4B04B5DE6F008AA971 /* MyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 561E3AD504A75E6D00000102 /* MyWindow.h */; };
+		566F2A4C04B5DE6F008AA971 /* MyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 561E3AD604A75E6D00000102 /* MyWindow.m */; };
+		566F2A4D04B5DE70008AA971 /* SFXUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 569F18C0043D0EED000001D2 /* SFXUtilities.h */; };
+		566F2A4E04B5DE71008AA971 /* SFXUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 569F18C1043D0EED000001D2 /* SFXUtilities.m */; };
+		566F2A4F04B5DE76008AA971 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		566F2A5004B5DE77008AA971 /* starfishprefix.h in Headers */ = {isa = PBXBuildFile; fileRef = F592E7270182594D01A8010A /* starfishprefix.h */; };
+		566F2A5104B5DE78008AA971 /* starfish-engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 568E38E10457342500528C70 /* starfish-engine.cpp */; };
+		566F2A5204B5DE78008AA971 /* starfish-engine.h in Headers */ = {isa = PBXBuildFile; fileRef = 568E38E20457342500528C70 /* starfish-engine.h */; };
+		566F2A5A04B5DE95008AA971 /* DrawerButton.tif in Resources */ = {isa = PBXBuildFile; fileRef = 565A59230471C11D006F5124 /* DrawerButton.tif */; };
+		566F2A5B04B5DE95008AA971 /* Starfish Image 3.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 569F18BB043D0A8C000001D2 /* Starfish Image 3.tiff */; };
+		566F2A5C04B5DE96008AA971 /* homepage.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 569F18BA043D0A8C000001D2 /* homepage.rtf */; };
+		566F2A5D04B5DE97008AA971 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 569F18B9043D0A8C000001D2 /* Credits.rtf */; };
+		566F2A5E04B5DE97008AA971 /* app.icns in Resources */ = {isa = PBXBuildFile; fileRef = 569F18B8043D0A8C000001D2 /* app.icns */; };
+		566F2A5F04B5DE98008AA971 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 567CF3A80438E378000001D2 /* Localizable.strings */; };
+		566F2A6004B5DE9B008AA971 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		566F2A6104B5DE9B008AA971 /* Version.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56DF1E75047F2B6300E61891 /* Version.plist */; };
+		566F2A6204B5DE9C008AA971 /* CustomSize.nib in Resources */ = {isa = PBXBuildFile; fileRef = 563FC89C042F8FA4000001D2 /* CustomSize.nib */; };
+		566F2A6304B5DE9C008AA971 /* Preferences.nib in Resources */ = {isa = PBXBuildFile; fileRef = 5678B339042D0CC800FEC0E1 /* Preferences.nib */; };
+		566F2A6404B5DE9D008AA971 /* PaletteEditor.nib in Resources */ = {isa = PBXBuildFile; fileRef = 189014110415311D00C9CC6D /* PaletteEditor.nib */; };
+		566F2A6504B5DE9D008AA971 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 5652A3E10460443F007F70E0 /* MainMenu.nib */; };
+		566F2AC504B5DEBD008AA971 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5685429B046F452700B9C740 /* IOKit.framework */; };
+		566F2AC604B5DEBE008AA971 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AA9366018E18AD01A8010A /* Carbon.framework */; };
+		566F2AC704B5DEBF008AA971 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		566F2AC804B5DEC4008AA971 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568D8FC80478239900841818 /* SystemConfiguration.framework */; };
+		566F2BD404B5F128008AA971 /* ReadMe.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 566F2BD004B5F128008AA971 /* ReadMe.rtf */; };
+		566F2BD504B5F128008AA971 /* whats-new.txt in Resources */ = {isa = PBXBuildFile; fileRef = 566F2BD104B5F128008AA971 /* whats-new.txt */; };
+		566F2BD904B5F19D008AA971 /* ReadMe.rtf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 566F2BD004B5F128008AA971 /* ReadMe.rtf */; };
+		566F2BDA04B5F19F008AA971 /* whats-new.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 566F2BD104B5F128008AA971 /* whats-new.txt */; };
+		566F2BDC04B5F1DE008AA971 /* ReadMe.rtf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 566F2BD004B5F128008AA971 /* ReadMe.rtf */; };
+		566F2BDD04B5F1EA008AA971 /* whats-new.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 566F2BD104B5F128008AA971 /* whats-new.txt */; };
+		566F2BDE04B5F1ED008AA971 /* StarfishX-G3.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 56DCA5F204B5DBE50012246B /* StarfishX-G3.app */; };
+		566F2BDF04B5F1F9008AA971 /* StarfishX.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 17587328FF379C6511CA2CBB /* StarfishX.app */; };
+		56776E2104798B1800CD4152 /* MyPopUpButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 56776E1F04798B1800CD4152 /* MyPopUpButton.h */; };
+		56776E2204798B1800CD4152 /* MyPopUpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 56776E2004798B1800CD4152 /* MyPopUpButton.m */; };
+		56776E2504798B2C00CD4152 /* MyTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 56776E2304798B2C00CD4152 /* MyTextField.h */; };
+		56776E2604798B2C00CD4152 /* MyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 56776E2404798B2C00CD4152 /* MyTextField.m */; };
+		5678B33B042D0CC800FEC0E1 /* Preferences.nib in Resources */ = {isa = PBXBuildFile; fileRef = 5678B339042D0CC800FEC0E1 /* Preferences.nib */; };
+		5678B33D042D15D600FEC0E1 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5678B33C042D15D600FEC0E1 /* PreferencesController.m */; };
+		567CF3AA0438E378000001D2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 567CF3A80438E378000001D2 /* Localizable.strings */; };
+		5685429C046F452700B9C740 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5685429B046F452700B9C740 /* IOKit.framework */; };
+		5687041D042FDFF2000001D2 /* StarfishController-Recent.m in Sources */ = {isa = PBXBuildFile; fileRef = 5687041B042FDFF2000001D2 /* StarfishController-Recent.m */; };
+		56870422042FE2B6000001D2 /* StarfishController-Defaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 56870421042FE2B6000001D2 /* StarfishController-Defaults.m */; };
+		56870424042FE313000001D2 /* StarfishController-VersCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 56870423042FE313000001D2 /* StarfishController-VersCheck.m */; };
+		56870426042FE39C000001D2 /* StarfishController-Desktop.m in Sources */ = {isa = PBXBuildFile; fileRef = 56870425042FE39C000001D2 /* StarfishController-Desktop.m */; };
+		56870428042FE46C000001D2 /* StarfishController-Generation.m in Sources */ = {isa = PBXBuildFile; fileRef = 56870427042FE46C000001D2 /* StarfishController-Generation.m */; };
+		568D8FB8047688C600841818 /* MyTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 568D8FB6047688C600841818 /* MyTableView.h */; };
+		568D8FB9047688C600841818 /* MyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 568D8FB7047688C600841818 /* MyTableView.m */; };
+		568D8FC90478239900841818 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568D8FC80478239900841818 /* SystemConfiguration.framework */; };
+		568E38E30457342500528C70 /* starfish-engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 568E38E10457342500528C70 /* starfish-engine.cpp */; };
+		568FF60B04749EF100564E8F /* MyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 568FF60904749EF100564E8F /* MyImageView.m */; };
+		568FF60C04749EF100564E8F /* MyImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 568FF60A04749EF100564E8F /* MyImageView.h */; };
+		569F18BC043D0A8C000001D2 /* app.icns in Resources */ = {isa = PBXBuildFile; fileRef = 569F18B8043D0A8C000001D2 /* app.icns */; };
+		569F18BD043D0A8C000001D2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 569F18B9043D0A8C000001D2 /* Credits.rtf */; };
+		569F18BE043D0A8C000001D2 /* homepage.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 569F18BA043D0A8C000001D2 /* homepage.rtf */; };
+		569F18BF043D0A8C000001D2 /* Starfish Image 3.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 569F18BB043D0A8C000001D2 /* Starfish Image 3.tiff */; };
+		569F18C3043D0EED000001D2 /* SFXUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 569F18C1043D0EED000001D2 /* SFXUtilities.m */; };
+		56A235E304829C6200000102 /* DrawerButton.tif in Resources */ = {isa = PBXBuildFile; fileRef = 565A59230471C11D006F5124 /* DrawerButton.tif */; };
+		56DF1E76047F2B6300E61891 /* Version.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56DF1E75047F2B6300E61891 /* Version.plist */; };
+		F59D314D0188A1A001A8010A /* StarfishGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F59D314B0188A1A001A8010A /* StarfishGenerator.m */; };
+		F5AA9367018E18AD01A8010A /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AA9366018E18AD01A8010A /* Carbon.framework */; };
+		F5AE703801872F5101A8010A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		F5DF0FF60184DA5101A8010A /* StarfishController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DF0FF40184DA5101A8010A /* StarfishController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC4CA695147C0A4300879021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56DCA5F104B5DBE50012246B /* XStarfish-G3 */;
+			remoteInfo = "XStarfish-G3";
+		};
+		DC4CA696147C0A4300879021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29B97326FDCFA39411CA2CEA /* XStarFish */;
+			remoteInfo = XStarFish;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		563922D004B602B800E3F2AD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = ../../mscott.org/starfishx;
+			dstSubfolderSpec = 16;
+			files = (
+				563922D104B602DB00E3F2AD /* whats-new.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566F2BD604B5F156008AA971 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = ../../starfishx;
+			dstSubfolderSpec = 16;
+			files = (
+				566F2BD904B5F19D008AA971 /* ReadMe.rtf in CopyFiles */,
+				566F2BDA04B5F19F008AA971 /* whats-new.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566F2BDB04B5F1C2008AA971 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "../../starfishx-g3";
+			dstSubfolderSpec = 16;
+			files = (
+				566F2BDC04B5F1DE008AA971 /* ReadMe.rtf in CopyFiles */,
+				566F2BDD04B5F1EA008AA971 /* whats-new.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566F2BE004B5FBF1008AA971 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = ../../starfishx;
+			dstSubfolderSpec = 16;
+			files = (
+				566F2BDF04B5F1F9008AA971 /* StarfishX.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		566F2BFF04B5FF0A008AA971 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "../../starfishx-g3";
+			dstSubfolderSpec = 16;
+			files = (
+				566F2BDE04B5F1ED008AA971 /* StarfishX-G3.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		17587328FF379C6511CA2CBB /* StarfishX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = StarfishX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1890140C0415299D00C9CC6D /* EditPalettesController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = EditPalettesController.h; sourceTree = "<group>"; };
+		1890140D0415299D00C9CC6D /* EditPalettesController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = EditPalettesController.m; sourceTree = "<group>"; };
+		189014120415311E00C9CC6D /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/PaletteEditor.nib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		561CC0F3042050E3000001D2 /* MyTableCells.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MyTableCells.h; sourceTree = "<group>"; };
+		561CC0F4042050E3000001D2 /* MyTableCells.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MyTableCells.m; sourceTree = "<group>"; };
+		561E3AD504A75E6D00000102 /* MyWindow.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MyWindow.h; sourceTree = "<group>"; };
+		561E3AD604A75E6D00000102 /* MyWindow.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MyWindow.m; sourceTree = "<group>"; };
+		563FC89D042F8FA4000001D2 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/CustomSize.nib; sourceTree = "<group>"; };
+		563FC89F042F8FB8000001D2 /* CustomSizeController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CustomSizeController.h; sourceTree = "<group>"; };
+		563FC8A0042F8FB8000001D2 /* CustomSizeController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = CustomSizeController.m; sourceTree = "<group>"; };
+		564E92A704507709006DB226 /* starfish-altivec.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = file; path = "starfish-altivec.c"; sourceTree = "<group>"; };
+		564E92A90450770E006DB226 /* starfish-altivec.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = file; path = "starfish-altivec.h"; sourceTree = "<group>"; };
+		5652A3E20460443F007F70E0 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		5652A3E40460444D007F70E0 /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		565A59230471C11D006F5124 /* DrawerButton.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = DrawerButton.tif; path = Resources/DrawerButton.tif; sourceTree = "<group>"; };
+		566F2BD004B5F128008AA971 /* ReadMe.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = ReadMe.rtf; sourceTree = "<group>"; };
+		566F2BD104B5F128008AA971 /* whats-new.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = "whats-new.txt"; sourceTree = "<group>"; };
+		56776E1F04798B1800CD4152 /* MyPopUpButton.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MyPopUpButton.h; sourceTree = "<group>"; };
+		56776E2004798B1800CD4152 /* MyPopUpButton.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MyPopUpButton.m; sourceTree = "<group>"; };
+		56776E2304798B2C00CD4152 /* MyTextField.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MyTextField.h; sourceTree = "<group>"; };
+		56776E2404798B2C00CD4152 /* MyTextField.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MyTextField.m; sourceTree = "<group>"; };
+		5678B33A042D0CC800FEC0E1 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Preferences.nib; sourceTree = "<group>"; };
+		5678B33C042D15D600FEC0E1 /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
+		5678B33E042D15E100FEC0E1 /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
+		567CF3A90438E378000001D2 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5685429B046F452700B9C740 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		5687041B042FDFF2000001D2 /* StarfishController-Recent.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "StarfishController-Recent.m"; sourceTree = "<group>"; };
+		5687041C042FDFF2000001D2 /* StarfishControllerPrivate.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = StarfishControllerPrivate.h; sourceTree = "<group>"; };
+		56870421042FE2B6000001D2 /* StarfishController-Defaults.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "StarfishController-Defaults.m"; sourceTree = "<group>"; };
+		56870423042FE313000001D2 /* StarfishController-VersCheck.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "StarfishController-VersCheck.m"; sourceTree = "<group>"; };
+		56870425042FE39C000001D2 /* StarfishController-Desktop.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "StarfishController-Desktop.m"; sourceTree = "<group>"; };
+		56870427042FE46C000001D2 /* StarfishController-Generation.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "StarfishController-Generation.m"; sourceTree = "<group>"; };
+		568D8FB6047688C600841818 /* MyTableView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MyTableView.h; sourceTree = "<group>"; };
+		568D8FB7047688C600841818 /* MyTableView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MyTableView.m; sourceTree = "<group>"; };
+		568D8FC80478239900841818 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = /System/Library/Frameworks/SystemConfiguration.framework; sourceTree = "<absolute>"; };
+		568E38E10457342500528C70 /* starfish-engine.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = file; path = "starfish-engine.cpp"; sourceTree = "<group>"; };
+		568E38E20457342500528C70 /* starfish-engine.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = file; path = "starfish-engine.h"; sourceTree = "<group>"; };
+		568FF60904749EF100564E8F /* MyImageView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MyImageView.m; sourceTree = "<group>"; };
+		568FF60A04749EF100564E8F /* MyImageView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MyImageView.h; sourceTree = "<group>"; };
+		569F18AC043D0000000001D2 /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable.strings; sourceTree = "<group>"; };
+		569F18AD043D0037000001D2 /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		569F18AE043D005C000001D2 /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/CustomSize.nib; sourceTree = "<group>"; };
+		569F18AF043D0073000001D2 /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/Preferences.nib; sourceTree = "<group>"; };
+		569F18B0043D007F000001D2 /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/PaletteEditor.nib; sourceTree = "<group>"; };
+		569F18B8043D0A8C000001D2 /* app.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = app.icns; path = Resources/app.icns; sourceTree = "<group>"; };
+		569F18B9043D0A8C000001D2 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Credits.rtf; path = Resources/Credits.rtf; sourceTree = "<group>"; };
+		569F18BA043D0A8C000001D2 /* homepage.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = homepage.rtf; path = Resources/homepage.rtf; sourceTree = "<group>"; };
+		569F18BB043D0A8C000001D2 /* Starfish Image 3.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Starfish Image 3.tiff"; path = "Resources/Starfish Image 3.tiff"; sourceTree = "<group>"; };
+		569F18C0043D0EED000001D2 /* SFXUtilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SFXUtilities.h; sourceTree = "<group>"; };
+		569F18C1043D0EED000001D2 /* SFXUtilities.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SFXUtilities.m; sourceTree = "<group>"; };
+		56DCA5F204B5DBE50012246B /* StarfishX-G3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "StarfishX-G3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56DF1E75047F2B6300E61891 /* Version.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Version.plist; sourceTree = "<group>"; };
+		F592E7270182594D01A8010A /* starfishprefix.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = starfishprefix.h; sourceTree = "<group>"; };
+		F59D314A0188A1A001A8010A /* StarfishGenerator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = StarfishGenerator.h; sourceTree = "<group>"; };
+		F59D314B0188A1A001A8010A /* StarfishGenerator.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = StarfishGenerator.m; sourceTree = "<group>"; };
+		F5AA9366018E18AD01A8010A /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		F5C8714601810F6A01A8010A /* vecLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = vecLib.framework; path = /System/Library/Frameworks/vecLib.framework; sourceTree = "<absolute>"; };
+		F5DF0FF30184DA5101A8010A /* StarfishController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = StarfishController.h; sourceTree = "<group>"; };
+		F5DF0FF40184DA5101A8010A /* StarfishController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = StarfishController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29B9732DFDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5AE703801872F5101A8010A /* Cocoa.framework in Frameworks */,
+				F5AA9367018E18AD01A8010A /* Carbon.framework in Frameworks */,
+				5622849F03F330A3000001D2 /* vecLib.framework in Frameworks */,
+				5685429C046F452700B9C740 /* IOKit.framework in Frameworks */,
+				568D8FC90478239900841818 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56DCA5EF04B5DBE50012246B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566F2AC504B5DEBD008AA971 /* IOKit.framework in Frameworks */,
+				566F2AC604B5DEBE008AA971 /* Carbon.framework in Frameworks */,
+				566F2AC704B5DEBF008AA971 /* Cocoa.framework in Frameworks */,
+				566F2AC804B5DEC4008AA971 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F5DF0FF30184DA5101A8010A /* StarfishController.h */,
+				F5DF0FF40184DA5101A8010A /* StarfishController.m */,
+				5687041C042FDFF2000001D2 /* StarfishControllerPrivate.h */,
+				56870421042FE2B6000001D2 /* StarfishController-Defaults.m */,
+				56870425042FE39C000001D2 /* StarfishController-Desktop.m */,
+				56870427042FE46C000001D2 /* StarfishController-Generation.m */,
+				5687041B042FDFF2000001D2 /* StarfishController-Recent.m */,
+				56870423042FE313000001D2 /* StarfishController-VersCheck.m */,
+				F59D314A0188A1A001A8010A /* StarfishGenerator.h */,
+				F59D314B0188A1A001A8010A /* StarfishGenerator.m */,
+				563FC89F042F8FB8000001D2 /* CustomSizeController.h */,
+				563FC8A0042F8FB8000001D2 /* CustomSizeController.m */,
+				1890140C0415299D00C9CC6D /* EditPalettesController.h */,
+				1890140D0415299D00C9CC6D /* EditPalettesController.m */,
+				5678B33E042D15E100FEC0E1 /* PreferencesController.h */,
+				5678B33C042D15D600FEC0E1 /* PreferencesController.m */,
+				568FF60A04749EF100564E8F /* MyImageView.h */,
+				568FF60904749EF100564E8F /* MyImageView.m */,
+				56776E1F04798B1800CD4152 /* MyPopUpButton.h */,
+				56776E2004798B1800CD4152 /* MyPopUpButton.m */,
+				561CC0F3042050E3000001D2 /* MyTableCells.h */,
+				561CC0F4042050E3000001D2 /* MyTableCells.m */,
+				568D8FB6047688C600841818 /* MyTableView.h */,
+				568D8FB7047688C600841818 /* MyTableView.m */,
+				56776E2304798B2C00CD4152 /* MyTextField.h */,
+				56776E2404798B2C00CD4152 /* MyTextField.m */,
+				561E3AD504A75E6D00000102 /* MyWindow.h */,
+				561E3AD604A75E6D00000102 /* MyWindow.m */,
+				569F18C0043D0EED000001D2 /* SFXUtilities.h */,
+				569F18C1043D0EED000001D2 /* SFXUtilities.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				F5AA9366018E18AD01A8010A /* Carbon.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5685429B046F452700B9C740 /* IOKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17587328FF379C6511CA2CBB /* StarfishX.app */,
+				56DCA5F204B5DBE50012246B /* StarfishX-G3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* XStarFish */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				566F2BCF04B5F128008AA971 /* Documentation */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = XStarFish;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				F592E7270182594D01A8010A /* starfishprefix.h */,
+				562284A003F3328B000001D2 /* engine */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5652A3E10460443F007F70E0 /* MainMenu.nib */,
+				189014110415311D00C9CC6D /* PaletteEditor.nib */,
+				5678B339042D0CC800FEC0E1 /* Preferences.nib */,
+				563FC89C042F8FA4000001D2 /* CustomSize.nib */,
+				56DF1E75047F2B6300E61891 /* Version.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				567CF3A80438E378000001D2 /* Localizable.strings */,
+				569F18B8043D0A8C000001D2 /* app.icns */,
+				569F18B9043D0A8C000001D2 /* Credits.rtf */,
+				569F18BA043D0A8C000001D2 /* homepage.rtf */,
+				569F18BB043D0A8C000001D2 /* Starfish Image 3.tiff */,
+				565A59230471C11D006F5124 /* DrawerButton.tif */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5C8714601810F6A01A8010A /* vecLib.framework */,
+				568D8FC80478239900841818 /* SystemConfiguration.framework */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		562284A003F3328B000001D2 /* engine */ = {
+			isa = PBXGroup;
+			children = (
+				568E38E10457342500528C70 /* starfish-engine.cpp */,
+				568E38E20457342500528C70 /* starfish-engine.h */,
+				564E92A704507709006DB226 /* starfish-altivec.c */,
+				564E92A90450770E006DB226 /* starfish-altivec.h */,
+			);
+			name = engine;
+			path = ../engine;
+			sourceTree = SOURCE_ROOT;
+		};
+		566F2BCF04B5F128008AA971 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				566F2BD004B5F128008AA971 /* ReadMe.rtf */,
+				566F2BD104B5F128008AA971 /* whats-new.txt */,
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		29B97327FDCFA39411CA2CEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568FF60C04749EF100564E8F /* MyImageView.h in Headers */,
+				568D8FB8047688C600841818 /* MyTableView.h in Headers */,
+				56776E2104798B1800CD4152 /* MyPopUpButton.h in Headers */,
+				56776E2504798B2C00CD4152 /* MyTextField.h in Headers */,
+				561E3AD704A75E6D00000102 /* MyWindow.h in Headers */,
+				561E3AD904A75E7A00000102 /* SFXUtilities.h in Headers */,
+				561E3ADA04A75E7B00000102 /* MyTableCells.h in Headers */,
+				561E3ADB04A75E7C00000102 /* PreferencesController.h in Headers */,
+				561E3ADC04A75E7D00000102 /* EditPalettesController.h in Headers */,
+				561E3ADD04A75E7D00000102 /* CustomSizeController.h in Headers */,
+				561E3ADE04A75E7F00000102 /* StarfishGenerator.h in Headers */,
+				561E3ADF04A75E7F00000102 /* StarfishControllerPrivate.h in Headers */,
+				561E3AE004A75E8000000102 /* StarfishController.h in Headers */,
+				561E3AE104A75E8400000102 /* starfish-engine.h in Headers */,
+				561E3AE204A75E8400000102 /* starfish-altivec.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56DCA5EC04B5DBE50012246B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566F2A3104B5DE61008AA971 /* StarfishController.h in Headers */,
+				566F2A3304B5DE62008AA971 /* StarfishControllerPrivate.h in Headers */,
+				566F2A3904B5DE65008AA971 /* StarfishGenerator.h in Headers */,
+				566F2A3B04B5DE66008AA971 /* CustomSizeController.h in Headers */,
+				566F2A3D04B5DE67008AA971 /* EditPalettesController.h in Headers */,
+				566F2A3F04B5DE68008AA971 /* PreferencesController.h in Headers */,
+				566F2A4104B5DE69008AA971 /* MyImageView.h in Headers */,
+				566F2A4304B5DE6B008AA971 /* MyPopUpButton.h in Headers */,
+				566F2A4504B5DE6C008AA971 /* MyTableCells.h in Headers */,
+				566F2A4704B5DE6D008AA971 /* MyTableView.h in Headers */,
+				566F2A4904B5DE6E008AA971 /* MyTextField.h in Headers */,
+				566F2A4B04B5DE6F008AA971 /* MyWindow.h in Headers */,
+				566F2A4D04B5DE70008AA971 /* SFXUtilities.h in Headers */,
+				566F2A5004B5DE77008AA971 /* starfishprefix.h in Headers */,
+				566F2A5204B5DE78008AA971 /* starfish-engine.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DC4CA6BC147C0A4500879021 /* Build configuration list for PBXProject "XStarFish2" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* XStarFish */;
+			projectDirPath = "";
+			targets = (
+				566F2BC804B5EFB6008AA971 /* All */,
+				29B97326FDCFA39411CA2CEA /* XStarFish */,
+				56DCA5F104B5DBE50012246B /* XStarfish-G3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29B97328FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089C165EFE840E0CC02AAC07 /* InfoPlist.strings in Resources */,
+				189014130415311E00C9CC6D /* PaletteEditor.nib in Resources */,
+				5678B33B042D0CC800FEC0E1 /* Preferences.nib in Resources */,
+				563FC89E042F8FA4000001D2 /* CustomSize.nib in Resources */,
+				567CF3AA0438E378000001D2 /* Localizable.strings in Resources */,
+				569F18BC043D0A8C000001D2 /* app.icns in Resources */,
+				569F18BD043D0A8C000001D2 /* Credits.rtf in Resources */,
+				569F18BE043D0A8C000001D2 /* homepage.rtf in Resources */,
+				569F18BF043D0A8C000001D2 /* Starfish Image 3.tiff in Resources */,
+				5652A3E30460443F007F70E0 /* MainMenu.nib in Resources */,
+				56DF1E76047F2B6300E61891 /* Version.plist in Resources */,
+				56A235E304829C6200000102 /* DrawerButton.tif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56DCA5ED04B5DBE50012246B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566F2A5A04B5DE95008AA971 /* DrawerButton.tif in Resources */,
+				566F2A5B04B5DE95008AA971 /* Starfish Image 3.tiff in Resources */,
+				566F2A5C04B5DE96008AA971 /* homepage.rtf in Resources */,
+				566F2A5D04B5DE97008AA971 /* Credits.rtf in Resources */,
+				566F2A5E04B5DE97008AA971 /* app.icns in Resources */,
+				566F2A5F04B5DE98008AA971 /* Localizable.strings in Resources */,
+				566F2A6004B5DE9B008AA971 /* InfoPlist.strings in Resources */,
+				566F2A6104B5DE9B008AA971 /* Version.plist in Resources */,
+				566F2A6204B5DE9C008AA971 /* CustomSize.nib in Resources */,
+				566F2A6304B5DE9C008AA971 /* Preferences.nib in Resources */,
+				566F2A6404B5DE9D008AA971 /* PaletteEditor.nib in Resources */,
+				566F2A6504B5DE9D008AA971 /* MainMenu.nib in Resources */,
+				566F2BD404B5F128008AA971 /* ReadMe.rtf in Resources */,
+				566F2BD504B5F128008AA971 /* whats-new.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29B9732BFDCFA39411CA2CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B9732CFDCFA39411CA2CEA /* main.m in Sources */,
+				564E92A804507709006DB226 /* starfish-altivec.c in Sources */,
+				568E38E30457342500528C70 /* starfish-engine.cpp in Sources */,
+				563FC8A2042F8FB8000001D2 /* CustomSizeController.m in Sources */,
+				1890140F0415299D00C9CC6D /* EditPalettesController.m in Sources */,
+				568FF60B04749EF100564E8F /* MyImageView.m in Sources */,
+				56776E2204798B1800CD4152 /* MyPopUpButton.m in Sources */,
+				561CC0F6042050E3000001D2 /* MyTableCells.m in Sources */,
+				568D8FB9047688C600841818 /* MyTableView.m in Sources */,
+				56776E2604798B2C00CD4152 /* MyTextField.m in Sources */,
+				561E3AD804A75E6D00000102 /* MyWindow.m in Sources */,
+				5678B33D042D15D600FEC0E1 /* PreferencesController.m in Sources */,
+				F5DF0FF60184DA5101A8010A /* StarfishController.m in Sources */,
+				56870422042FE2B6000001D2 /* StarfishController-Defaults.m in Sources */,
+				56870426042FE39C000001D2 /* StarfishController-Desktop.m in Sources */,
+				56870428042FE46C000001D2 /* StarfishController-Generation.m in Sources */,
+				5687041D042FDFF2000001D2 /* StarfishController-Recent.m in Sources */,
+				56870424042FE313000001D2 /* StarfishController-VersCheck.m in Sources */,
+				F59D314D0188A1A001A8010A /* StarfishGenerator.m in Sources */,
+				569F18C3043D0EED000001D2 /* SFXUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56DCA5EE04B5DBE50012246B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566F2A4F04B5DE76008AA971 /* main.m in Sources */,
+				566F2A5104B5DE78008AA971 /* starfish-engine.cpp in Sources */,
+				566F2A3C04B5DE66008AA971 /* CustomSizeController.m in Sources */,
+				566F2A3E04B5DE68008AA971 /* EditPalettesController.m in Sources */,
+				566F2A4204B5DE6A008AA971 /* MyImageView.m in Sources */,
+				566F2A4404B5DE6B008AA971 /* MyPopUpButton.m in Sources */,
+				566F2A4604B5DE6C008AA971 /* MyTableCells.m in Sources */,
+				566F2A4804B5DE6D008AA971 /* MyTableView.m in Sources */,
+				566F2A4A04B5DE6E008AA971 /* MyTextField.m in Sources */,
+				566F2A4C04B5DE6F008AA971 /* MyWindow.m in Sources */,
+				566F2A4004B5DE69008AA971 /* PreferencesController.m in Sources */,
+				566F2A3204B5DE61008AA971 /* StarfishController.m in Sources */,
+				566F2A3404B5DE62008AA971 /* StarfishController-Defaults.m in Sources */,
+				566F2A3504B5DE63008AA971 /* StarfishController-Desktop.m in Sources */,
+				566F2A3604B5DE63008AA971 /* StarfishController-Generation.m in Sources */,
+				566F2A3704B5DE64008AA971 /* StarfishController-Recent.m in Sources */,
+				566F2A3804B5DE64008AA971 /* StarfishController-VersCheck.m in Sources */,
+				566F2A3A04B5DE65008AA971 /* StarfishGenerator.m in Sources */,
+				566F2A4E04B5DE71008AA971 /* SFXUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		566F2BC904B5EFBD008AA971 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29B97326FDCFA39411CA2CEA /* XStarFish */;
+			targetProxy = DC4CA696147C0A4300879021 /* PBXContainerItemProxy */;
+		};
+		566F2BCA04B5EFBF008AA971 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56DCA5F104B5DBE50012246B /* XStarfish-G3 */;
+			targetProxy = DC4CA695147C0A4300879021 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+				569F18AD043D0037000001D2 /* French */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		189014110415311D00C9CC6D /* PaletteEditor.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189014120415311E00C9CC6D /* English */,
+				569F18B0043D007F000001D2 /* French */,
+			);
+			name = PaletteEditor.nib;
+			sourceTree = "<group>";
+		};
+		563FC89C042F8FA4000001D2 /* CustomSize.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				563FC89D042F8FA4000001D2 /* English */,
+				569F18AE043D005C000001D2 /* French */,
+			);
+			name = CustomSize.nib;
+			sourceTree = "<group>";
+		};
+		5652A3E10460443F007F70E0 /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5652A3E20460443F007F70E0 /* English */,
+				5652A3E40460444D007F70E0 /* French */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		5678B339042D0CC800FEC0E1 /* Preferences.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5678B33A042D0CC800FEC0E1 /* English */,
+				569F18AF043D0073000001D2 /* French */,
+			);
+			name = Preferences.nib;
+			sourceTree = "<group>";
+		};
+		567CF3A80438E378000001D2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				567CF3A90438E378000001D2 /* English */,
+				569F18AC043D0000000001D2 /* French */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC4CA6AE147C0A4500879021 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				CURRENT_VERSION = "\"2.0b5\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = 3.3;
+				INSTALL_PATH = "~/Projects/xstarfish/starfishx";
+				MAC_OS_VERSION_MIN_SUPPORTED = 1026;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = (
+					"-faltivec",
+					"-DBUILD_ALTIVEC=1",
+					"-DBUILD_20=1",
+					"-mcpu=7400",
+					"-mtune=7450",
+				);
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PREFIX_HEADER = starfishprefix.h;
+				PRODUCT_NAME = StarfishX;
+				SDKROOT = /Developer/SDKs/MacOSX10.2.6.sdk;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		DC4CA6AF147C0A4500879021 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				CURRENT_VERSION = "\"2.0b5\"";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_VERSION = 3.3;
+				INSTALL_PATH = "~/Projects/xstarfish/starfishx";
+				MAC_OS_VERSION_MIN_SUPPORTED = 1026;
+				OPTIMIZATION_CFLAGS = "-Os";
+				OTHER_CFLAGS = (
+					"-faltivec",
+					"-DBUILD_ALTIVEC=1",
+					"-DBUILD_20=1",
+					"-mcpu=7400",
+					"-mtune=7450",
+				);
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PREFIX_HEADER = starfishprefix.h;
+				PRODUCT_NAME = StarfishX;
+				SDKROOT = /Developer/SDKs/MacOSX10.2.6.sdk;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		DC4CA6B0147C0A4500879021 /* Performance Testing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				CURRENT_VERSION = "\"2.0b5\"";
+				GCC_VERSION = 3.3;
+				INSTALL_PATH = "~/Projects/xstarfish/starfishx";
+				MAC_OS_VERSION_MIN_SUPPORTED = 1026;
+				OPTIMIZATION_CFLAGS = "-Os";
+				OTHER_CFLAGS = (
+					"-faltivec",
+					"-DBUILD_ALTIVEC=1",
+					"-DBUILD_20=1",
+					"-mcpu=7400",
+					"-mtune=7450",
+				);
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PREFIX_HEADER = starfishprefix.h;
+				PRODUCT_NAME = StarfishX;
+				PROFILING_CODE = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.2.6.sdk;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Performance Testing";
+		};
+		DC4CA6B1147C0A4500879021 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_VERSION = "\"2.0b5\"";
+				GCC_VERSION = 3.3;
+				INSTALL_PATH = "~/Projects/xstarfish/starfishx";
+				MAC_OS_VERSION_MIN_SUPPORTED = 1026;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = (
+					"-faltivec",
+					"-DBUILD_ALTIVEC=1",
+					"-DBUILD_20=1",
+					"-mcpu=7400",
+					"-mtune=7450",
+				);
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PREFIX_HEADER = starfishprefix.h;
+				PRODUCT_NAME = StarfishX;
+				SDKROOT = /Developer/SDKs/MacOSX10.2.6.sdk;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		DC4CA6B3147C0A4500879021 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = 3.3;
+				INSTALL_PATH = "../../starfishx-g3";
+				MAC_OS_VERSION_MIN_SUPPORTED = 1026;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "-DBUILD_20=1";
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PREFIX_HEADER = starfishprefix.h;
+				PRODUCT_NAME = "StarfishX-G3";
+				SDKROOT = /Developer/SDKs/MacOSX10.2.6.sdk;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		DC4CA6B4147C0A4500879021 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_VERSION = 3.3;
+				INSTALL_PATH = "../../starfishx-g3";
+				MAC_OS_VERSION_MIN_SUPPORTED = 1026;
+				OPTIMIZATION_CFLAGS = "-Os";
+				OTHER_CFLAGS = "-DBUILD_20=1";
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PREFIX_HEADER = starfishprefix.h;
+				PRODUCT_NAME = "StarfishX-G3";
+				SDKROOT = /Developer/SDKs/MacOSX10.2.6.sdk;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		DC4CA6B5147C0A4500879021 /* Performance Testing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_VERSION = 3.3;
+				INSTALL_PATH = "../../starfishx-g3";
+				MAC_OS_VERSION_MIN_SUPPORTED = 1026;
+				OPTIMIZATION_CFLAGS = "-Os";
+				OTHER_CFLAGS = "-DBUILD_20=1";
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PREFIX_HEADER = starfishprefix.h;
+				PRODUCT_NAME = "StarfishX-G3";
+				PROFILING_CODE = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.2.6.sdk;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Performance Testing";
+		};
+		DC4CA6B6147C0A4500879021 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_VERSION = 3.3;
+				INSTALL_PATH = "../../starfishx-g3";
+				MAC_OS_VERSION_MIN_SUPPORTED = 1026;
+				OTHER_CFLAGS = "-DBUILD_20=1";
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PREFIX_HEADER = starfishprefix.h;
+				PRODUCT_NAME = "StarfishX-G3";
+				SDKROOT = /Developer/SDKs/MacOSX10.2.6.sdk;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		DC4CA6B8147C0A4500879021 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = All;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		DC4CA6B9147C0A4500879021 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OPTIMIZATION_CFLAGS = "-Os";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = All;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		DC4CA6BA147C0A4500879021 /* Performance Testing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				OPTIMIZATION_CFLAGS = "-Os";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = All;
+				PROFILING_CODE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = "Performance Testing";
+		};
+		DC4CA6BB147C0A4500879021 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = All;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+		DC4CA6BD147C0A4500879021 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		DC4CA6BE147C0A4500879021 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		DC4CA6BF147C0A4500879021 /* Performance Testing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = "Performance Testing";
+		};
+		DC4CA6C0147C0A4500879021 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC4CA6AD147C0A4500879021 /* Build configuration list for PBXApplicationTarget "XStarFish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4CA6AE147C0A4500879021 /* Development */,
+				DC4CA6AF147C0A4500879021 /* Deployment */,
+				DC4CA6B0147C0A4500879021 /* Performance Testing */,
+				DC4CA6B1147C0A4500879021 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		DC4CA6B2147C0A4500879021 /* Build configuration list for PBXApplicationTarget "XStarfish-G3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4CA6B3147C0A4500879021 /* Development */,
+				DC4CA6B4147C0A4500879021 /* Deployment */,
+				DC4CA6B5147C0A4500879021 /* Performance Testing */,
+				DC4CA6B6147C0A4500879021 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		DC4CA6B7147C0A4500879021 /* Build configuration list for PBXAggregateTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4CA6B8147C0A4500879021 /* Development */,
+				DC4CA6B9147C0A4500879021 /* Deployment */,
+				DC4CA6BA147C0A4500879021 /* Performance Testing */,
+				DC4CA6BB147C0A4500879021 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		DC4CA6BC147C0A4500879021 /* Build configuration list for PBXProject "XStarFish2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4CA6BD147C0A4500879021 /* Development */,
+				DC4CA6BE147C0A4500879021 /* Deployment */,
+				DC4CA6BF147C0A4500879021 /* Performance Testing */,
+				DC4CA6C0147C0A4500879021 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
