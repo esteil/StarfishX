@@ -60,6 +60,7 @@ int			gNextLine;
 
 	_useAltivec = usingAltivec;
 	_numThreads = numOfThreads;
+    _lineSkip = numOfThreads;
 //	_bitmap = nil;				// In case we fail below
 //	_generating = NO;
 	_mainThread = YES;
@@ -228,7 +229,8 @@ int			gNextLine;
 		} // if/else
 
 		_curCol = 0;
-		_curLine++;
+        _curLine += _lineSkip;
+            
 	} // while
 
 	_generating = NO;
@@ -318,6 +320,7 @@ int			gNextLine;
 - (id) initChildThread:(StarfishGenerator*)parent
 						startingLine:(int)beginLine
 						endingLine:(int)endLine
+                        skipLines:(int)lineSkip
 {
 	[super init];
 
@@ -332,6 +335,7 @@ int			gNextLine;
 //	_stop = NO;
 //	_childThreads = nil;
 	_numThreads = 1;
+    _lineSkip = lineSkip;
 
 //	_curCol   = 0;
 	_maxCol   = parent->_maxCol;
@@ -349,7 +353,7 @@ int			gNextLine;
 
 	_childThreads = [[NSMutableArray alloc] init];
 	for (i = 0; i < _numThreads - 1; i++) {	// The main thread counts as one thread
-		StarfishGenerator	*thread = [[StarfishGenerator alloc] initChildThread:self startingLine:gNextLine++ endingLine:_realMaxLines];
+		StarfishGenerator	*thread = [[StarfishGenerator alloc] initChildThread:self startingLine:i + 1 endingLine:_realMaxLines skipLines:_numThreads];
 		if (thread != nil)
 			[_childThreads addObject:thread];
 		else

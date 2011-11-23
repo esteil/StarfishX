@@ -30,6 +30,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 	int					_curCol, _maxCol;
 	int					_curLine, _maxLines;
 	int					_realMaxLines;
+    int                 _lineSkip;
 	NSBitmapImageRep*	_bitmap;
 	BOOL				_useAltivec;
 	int					_numThreads;
