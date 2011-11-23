@@ -23,7 +23,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #import "StarfishGenerator.h"
 #import "SFXUtilities.h"
 
-NSLock		*gLineLock;
+NSLock *gBitmapLock;
 int			gNextLine;
 
 
@@ -66,8 +66,7 @@ int			gNextLine;
 //	_childThreads = nil;
 //	_parentThread = nil;
 
-	if (gLineLock != nil)
-		gLineLock = [[NSLock alloc] init];
+    if(!gBitmapLock) gBitmapLock = [[NSLock alloc] init];
 
 	// Get the selected palette
 	[self calculateStarfishPalette:&colors paletteIndex:whichPalette paletteArray:paletteList];
@@ -155,6 +154,7 @@ int			gNextLine;
 	
 		if (_bitmap != nil)
 			[_bitmap release];
+        [gBitmapLock release];
 	} // if
 
 	[super dealloc];
@@ -179,16 +179,12 @@ int			gNextLine;
 
 - (void) generateImage
 {
-    unsigned char	*buff;
-
     if (_generating)
         return;
-    buff = [_bitmap bitmapData];
 
-    if (buff == nil)
+    if ([_bitmap bitmapData] == nil)
         return;
-	buff += (_curLine * _maxCol * sizeof(long));
-
+    
 	if (_childThreads != nil)
 		[self startChildThreads];
 
@@ -222,21 +218,17 @@ int			gNextLine;
 				pixel	srlColor;
 	
 				GetStarfishPixel(_curCol, _curLine, _generator, &srlColor);
-				*buff++ = srlColor.red;
-				*buff++ = srlColor.green;
-				*buff++ = srlColor.blue;
-				*buff++ = 255;	// srlColor.alpha;
+                
+                NSUInteger pixelColor[4] = {srlColor.red, srlColor.green, srlColor.blue, 255};
+                [gBitmapLock lock];
+                [_bitmap setPixel:pixelColor atX:_curCol y:_curLine];
+                [gBitmapLock unlock];
 				_curCol++;
 			} // while
 		} // if/else
 
 		_curCol = 0;
-//		_curLine++;
-		[gLineLock lock];	// Blocks until we get the lock
-		_curLine = gNextLine++;
-		[gLineLock unlock];
-		//buff = [_bitmap bitmapData] + (_curLine * _maxCol * sizeof(long));
-        buff = [_bitmap bitmapData] + (_curLine * [_bitmap bytesPerRow]);
+		_curLine++;
 	} // while
 
 	_generating = NO;
