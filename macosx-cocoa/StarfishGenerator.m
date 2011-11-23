@@ -156,6 +156,7 @@ int			gNextLine;
 		if (_bitmap != nil)
 			[_bitmap release];
         [gBitmapLock release];
+        gBitmapLock = nil;
 	} // if
 
 	[super dealloc];
