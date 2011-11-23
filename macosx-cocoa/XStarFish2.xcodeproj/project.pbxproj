@@ -553,7 +553,7 @@
 		DCA27FFE147C0A980071CFD0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 12;
-			dstPath = "../../starfishx-g3";
+			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
 				DCA27FFF147C0A980071CFD0 /* ReadMe.rtf in CopyFiles */,
@@ -1823,7 +1823,6 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "Info-XStarfish_G3__Upgraded_.plist";
-				INSTALL_PATH = "../../starfishx-g3";
 				MAC_OS_VERSION_MIN_SUPPORTED = 1026;
 				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "StarfishX-G3";
@@ -1850,7 +1849,6 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "Info-XStarfish_G3__Upgraded_.plist";
-				INSTALL_PATH = "../../starfishx-g3";
 				MAC_OS_VERSION_MIN_SUPPORTED = 1026;
 				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "StarfishX-G3";
@@ -1876,7 +1874,6 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "Info-XStarfish_G3__Upgraded_.plist";
-				INSTALL_PATH = "../../starfishx-g3";
 				MAC_OS_VERSION_MIN_SUPPORTED = 1026;
 				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "StarfishX-G3";
@@ -1900,7 +1897,6 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "Info-XStarfish_G3__Upgraded_.plist";
-				INSTALL_PATH = "../../starfishx-g3";
 				MAC_OS_VERSION_MIN_SUPPORTED = 1026;
 				OTHER_CFLAGS = "";
 				PRODUCT_NAME = "StarfishX-G3";
